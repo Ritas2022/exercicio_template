@@ -37,8 +37,8 @@ app.listen(port, listenHandler);
 function listProjectHandler(req, res){
     /* Os dados a seguir, em uma aplicação real, deveriam vir de um BD */
     let projeto_1 = new Projeto("Projeto -Elite-Academy",2020,2020,2020); 
-    let projeto_2 = new Projeto("API",2021,2021);
-    let projeto_3 = new Projeto("SrSoja",2022,2022);    
+    let projeto_2 = new Projeto("API",2021,2021,2021);
+    let projeto_3 = new Projeto("SrSoja",2022,2022,2022);    
     let projetos = [];
     projetos.push(projeto_1);
     projetos.push(projeto_2);
