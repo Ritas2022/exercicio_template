@@ -2,7 +2,7 @@
 Autor: Fabrício G. M. de Carvalho
 */
 body{
-    background-color:rgb(99, 218, 144);
+    background-color:rgb(218, 99, 151);
 }
 
 ul{
@@ -16,7 +16,7 @@ li{
     margin-top: 10pt;
     width: 150pt;
     height: 150pt;
-    background-color: yellow;
+    background-color: rgb(255, 0, 21);
     border-radius: 20%;
     text-align: center;
     padding-top: 70pt;
