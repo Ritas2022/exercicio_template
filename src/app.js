@@ -36,13 +36,17 @@ app.listen(port, listenHandler);
 
 function listProjectHandler(req, res){
     /* Os dados a seguir, em uma aplicação real, deveriam vir de um BD */
-    let projeto_1 = new Projeto("Projeto -Elite-Academy",2020,2020,2020); 
-    let projeto_2 = new Projeto("API",2021,2021,2021);
-    let projeto_3 = new Projeto("SrSoja",2022,2022,2022);    
+    let projeto_1 = new Projeto("Elite-Academy Desenvolvimento de um site para produtos educacionais.",2020,2020,2020); 
+    let projeto_2 = new Projeto("Evo - Desenvolvimento de uma aplicação Web para solucionar problemas causados por fontes de dados diferentes",2021,2021,2021);
+    let projeto_3 = new Projeto("Target -Business Solutions -Desenvolver uma aplicação Web para gestão de Relacionamento com o cliente para organização dos processos comercias,oferencendo suporte adequado ás áreas de vendas para empresas parceiras.",2022,2022,2022);   
+    let projeto_4 = new Projeto("SrSoja- Criação de um Aplicativo colaborativo para produtores rurais.",2022,2022,2022); 
+    let projeto_5 = new Projeto("OP-Criação de uma aplicação mobile para coleta de dados públicos,de acordo com o conceito citizen, para auxilio da secretaria de obras e serviços públicos",2022,2022,2022);  
     let projetos = [];
     projetos.push(projeto_1);
     projetos.push(projeto_2);
     projetos.push(projeto_3);
+    projetos.push(projeto_4);
+    projetos.push(projeto_5);
     res.render('listar_projetos.ejs',{lista_projetos: projetos});    
 }
 

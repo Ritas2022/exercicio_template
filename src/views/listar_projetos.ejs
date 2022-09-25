@@ -4,7 +4,7 @@
     <%-include('base_menu') -%>
     <ul>
     <% for(var i=0; i< lista_projetos.length; ++i) { %>        
-        <li> 
+        <li class="card"> 
             <span class="descritor">Tipo de Projeto:</span> <%=lista_projetos[i].tipo %><br/>
             <% if(lista_projetos[i].tipo =="software") { %>
             <span class="descritor">Tecnologia:</span> <%=lista_projetos[i].tecnologia %><br/>
