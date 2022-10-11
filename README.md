@@ -8,7 +8,7 @@ Este exercicio tem o objetivo de adaptar o exemplo mostrado pelo professor Fabri
 ✔ Criar as rotas e os templates correspondentes, fazendo uso da estrutura comum de um elemento básico para o header e para o footer.<br>
 ✔ Criar um repositório denominado “exercicio_template”. 
 
-Para executar a aplicação 
+## Para executar a aplicação 
 
 ✔ Fazer um clone do repositorio: git clone "inserir o link do repositório desejado".<br>
 ✔ Abrir a pasta src, para isso utilize o comando cd e o nome da pasta que deseja abrir.<br>
